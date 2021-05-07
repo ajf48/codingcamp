@@ -1,0 +1,257 @@
+<DOCTYPE html>
+<html lang="eng" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Style Sheet Link -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<style>
+
+			.flexboxh { display:flex; 
+				justify-content: center;
+				flex-wrap: wrap;
+			}
+
+			.flexboxp { display:flex;
+				align-items: center;
+			}
+
+
+
+		</style>
+
+
+		<title>SignUp</title>
+	</head>
+
+<body>
+
+<header>
+
+<ul class="flexboxh">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="activities.html">Activities</a></li>
+  <li><a href="signup.html">Sign Up</a></li>
+</ul>
+
+</header>
+	
+
+<main style="margin-left: 160px; margin-right: 160px;">
+
+<h1 class="flexboxh">
+	Sign Up Here!
+</h1>
+
+<p>
+		Below you can sign up your child for one week of Aristotle Coding Camp. Aristotle Coding is open to children ages 10-17 and must apply with a parent/guardian. Nam dapibus magna non dolor hendrerit, sed semper erat dignissim. In iaculis quam est, ut commodo dui ultrices eget. Fusce interdum malesuada neque sed rhoncus. Mauris et molestie velit. Aliquam varius libero enim. Integer tempus lorem sit amet elit dictum, id vestibulum augue interdum. Fusce tempus elit vel magna interdum maximus. Vivamus eu elit id sem ultrices dignissim. Vestibulum vulputate augue nulla, sed aliquam dui scelerisque a. Proin non odio tincidunt, iaculis felis pharetra, gravida turpis. Duis hendrerit velit sit amet lectus cursus, nec pellentesque quam aliquet. Duis consectetur nisi non justo scelerisque, ac consectetur lectus finibus. Aristotle Coding is not responsible for lost children.
+</p>
+
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Fill out the Information Below</legend>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="firstname">Camper First Name</label>  
+  <div class="col-md-4">
+  <input id="firstname" name="firstname" type="text" placeholder="first name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="lastname">Camper Last Name</label>  
+  <div class="col-md-4">
+  <input id="lastname" name="lastname" type="text" placeholder="last name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Parent/Guardian Email</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="johndoe@email.com" class="form-control input-md">
+    
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phone">Parent/Guardian Phone Number</label>  
+  <div class="col-md-4">
+  <input id="phone" name="phone" type="text" placeholder="(123)-555-1234" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="age">Camper Age</label>
+  <div class="col-md-4">
+    <select id="age" name="age" class="form-control">
+      <option value="1">10-12</option>
+      <option value="2">13-15</option>
+      <option value="3">16-17</option>
+    </select>
+  </div>
+</div>
+
+<br>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="week">Desired Week</label>
+  <div class="col-md-4">
+    <select id="week" name="week" class="form-control">
+      <option value="1">Week 1 (July 4-9)</option>
+      <option value="2">Week 2 (July 11-16)</option>
+      <option value="3">Week 3 (July 18-23)</option>
+      <option value="4">Week 4 (July 25-30)</option>
+    </select>
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="address">Street Address</label>  
+  <div class="col-md-4">
+  <input id="address" name="address" type="text" placeholder="11 main st" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="town">Town</label>  
+  <div class="col-md-4">
+  <input id="town" name="town" type="text" placeholder="Codingtown" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="state">State</label>  
+  <div class="col-md-4">
+  <input id="state" name="state" type="text" placeholder="codingstate" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="zip">ZIP Code</label>  
+  <div class="col-md-4">
+  <input id="zip" name="zip" type="text" placeholder="12345" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<br>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="agreement">I Agree to the terms of Aristotle Coding</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="agreement-0">
+      <input type="checkbox" name="agreement" id="agreement-0" value="1">
+      I Agree
+    </label>
+	</div>
+  </div>
+</div>
+
+<br>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+<br>
+</main>
+
+
+
+
+
+
+<footer>
+
+<div class="flexboxh">
+<a href="https://mokturtle.net/htmlinternet/student.html">IMPORTANT LINK: This is a Student Project</a>
+</div>
+
+<p>
+	"Aristotle (384-322 BC)" by Tilemahos Efthimiadis is licensed under CC BY-SA 2.0
+</p>
+
+<p>
+	"File:20110914 Polystylon Abdera Xanthi Thrace Greece Panorama 1.jpg" by User:Ggia is licensed under CC BY-SA 3.0
+</p>
+
+<p>
+	"Microbee Computer-In-A-Book" by Easterbilby is licensed under CC BY 2.0
+</p>
+
+<p>
+	"kid playing Spacewar!, one of the first video games. That box to the right is the computer it took to play this." by whyamiKeenan is licensed under CC BY-SA 2.0
+</p>
+
+<p>
+	"Computing legends: Donald Knuth, Al Acorn and Steve Wozniak open new Computer History Museum exhibit." by Robert Scoble is licensed under CC BY 2.0
+</p>
+
+<p>
+	"W. H. Dunnigan, Business Man, Anaconda, Montana. (1911)" by Butte-Silver Bow Public Library is licensed under CC BY-NC-ND 2.0
+</p>
+
+<p>
+	"Charles Koch - Kochy the Evil Clown's Brother" by DonkeyHotey is licensed under CC BY 2.0
+</p>
+
+<p>
+	"Thomas Nast - Caricaturist" by DonkeyHotey is licensed under CC BY 2.0
+</p>
+
+<p>
+	"ramona_manga" by Ramona.Forcella is licensed under CC BY 2.0
+</p>
+
+<p>
+	"Athens - Acropolis: Parthenon - Southwest pediment" by wallyg is licensed under CC BY-NC-ND 2.0
+</p>
+
+
+
+
+<div class="flexboxh">
+<img src="logo.png" alt="Logo">
+</div>
+</footer>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+/* main styles */
+body{
+margin: 0px;
+color: white ;
+background-color: #659dbd;
+font-family: "Lato", sans-serif;
+}
+
+
+/* header styles */
+header{
+	margin: 0px;
+}
+
+
+/* Navbar Style */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#fbeec1 ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #bc986a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+
+
+nav {}
+
+
+/* footer styles */
+footer{
+  background-color: #bc986a;
+  font-size: 6pt;
+}
+
